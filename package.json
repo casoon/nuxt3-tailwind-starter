@@ -1,0 +1,27 @@
+{
+  "name": "@casoon/nuxt3-tailwind-starter",
+  "description": "nuxt3 (typescript+tailwind) starter project",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casoon/nuxt3-tailwind-starter.git"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "nuxt": "3.0.0-rc.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.1",
+    "pinia": "^2.0.21"
+  },
+  "author": "Jörn Seidel <joern.seidel@casoon.de> (https://casoon.de)",
+  "license": "MIT"
+}
