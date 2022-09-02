@@ -1,0 +1,20 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body{
+  line-height: $body-line-height;
+  font-size: $body-font-size;
+  font-style: normal;
+  font-weight: $body-font-weight;
+  visibility: visible;
+  font-family: $font-family-name;
+  color: $body-text-color;
+  position: relative;
+  background-color: $body-bg-color;
+  &.no-overflow{
+    overflow: hidden;
+  }
+}

@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <h1>Nuxt 3 starter template</h1>
+    <h1 class="text-2xl font-bold underline">Nuxt 3 starter template</h1>
   </div>
 </template>
