@@ -5,3 +5,21 @@
     <SiteFooter />
   </div>
 </template>
+
+<script setup lang="ts">
+const theme = useTheme()
+
+if (theme.value === 'dark' || ((theme.value === '') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  theme.value = 'dark'
+} else {
+  theme.value = 'light'
+}
+
+useHead({
+  htmlAttrs: {
+    class: theme.value
+  }
+})
+
+</script>
+
