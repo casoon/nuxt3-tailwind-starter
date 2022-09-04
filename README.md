@@ -1,6 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+
+## Features
+
+- [Nuxt 3](https://v3.nuxtjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Sass](https://sass-lang.com/)
+- [Nuxt Image](https://github.com/nuxt/image) (not production ready)
+- [VueUse](https://github.com/vueuse/vueuse)
 
 ## Setup
 
@@ -9,12 +17,6 @@ Make sure to install the dependencies:
 ```bash
 # yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -22,7 +24,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
@@ -30,13 +32,12 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
